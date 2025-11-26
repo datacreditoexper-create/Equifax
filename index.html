@@ -562,7 +562,6 @@ body {
     <button class="btn-login" onclick="handleLogin()">Ingresar</button>
     
     <p class="help-text">¿No tienes codigo? Contacta con tu asesor</p>
-    <p class="help-text" style="margin-top: 20px; background: #f0f0f0; padding: 10px; border-radius: 5px;"><strong>Prueba con:</strong><br>Cédula: 4083790 | Código: 5630</p>
 </div>
 
 <div class="dashboard" id="dashboard">
@@ -656,6 +655,99 @@ body {
                 <button class="btn-download-pdf" onclick="downloadReport()">
                     📄 DESCARGAR REPORTE EN PDF
                 </button>
+                <p style="color: #666; font-size: 12px; margin-top: 10px;">
+                    El reporte incluye tu score, factores de riesgo y toda la información crediticia
+                </p>
+            </div>
+        </div>
+        
+        <div class="content-box">
+            <div class="factors-section">
+                <div class="factors-header">FACTORES QUE INFLUYEN EN SU SCORE</div>
+                <div class="factors-subtitle">
+                    Considera unicamente deuda directa en el Sistema Crediticio Ecuatoriano<br>
+                    <strong>(-) Influencia negativa &nbsp;&nbsp;&nbsp; (+) Influencia positiva</strong>
+                </div>
+                
+                <table class="factors-table">
+                    <tbody>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Atrasos Mayor a 60 dias:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Operaciones Historicas:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Operaciones Vigentes:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Operaciones Vencidas:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Operaciones que no Devenga Intereses:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de Operaciones Vencidas Mayores a 90 dias:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo por vencer:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo vencido:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo que no devenga intereses:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo en demanda judicial:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo en castigo:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Tiempo transcurrido desde el primer credito:</td>
+                            <td class="factor-value">0 Meses</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Numero de operaciones aperturadas en los ultimos 12 meses:</td>
+                            <td class="factor-value">0</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo de deuda de nuevos creditos:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                        <tr>
+                            <td class="factor-sign positive">(+)</td>
+                            <td class="factor-label">Saldo Promedio Vencido nuevos creditos:</td>
+                            <td class="factor-value">0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         
